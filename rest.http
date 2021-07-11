@@ -1,0 +1,27 @@
+### User sing up endpoint
+POST http://localhost:4000/v1/user
+Content-Type: application/json
+
+{
+    "name": "Prem Acharya",
+    "company": "Company name",
+    "address": "Some address Sydney",
+    "phone": "041000000",
+    "email": "e2@e.com11",
+    "password": "secret222"
+}
+
+### User sign in endpoint
+POST http://localhost:4000/v1/user/login
+Content-Type: application/json
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImUyQGUuY29tMTEiLCJpYXQiOjE2MjYwMDU3MDksImV4cCI6MTYyNjAwNjYwOX0.lOGSKr-KgK-tEUXZmuG_K4lsqNi6_DXYmoeIxxyQ35k
+{
+ 
+    "email": "e2@e.com11",
+     "password": "secret222"
+   
+    
+    
+}
+ 
